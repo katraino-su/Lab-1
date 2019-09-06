@@ -31,7 +31,8 @@ h1 {
 
 .content {
     width: 70%;
-
+    background-color: lightgray; 
+    min-height: 500px;
 }
 
 .sidebar {
@@ -52,5 +53,13 @@ h1 {
 
 .blog-post-img {
     float: left;
+    margin: 20px;
+}
+
+.main {
+    display: flex;
+}
+
+.content p {
     margin: 20px;
 }
